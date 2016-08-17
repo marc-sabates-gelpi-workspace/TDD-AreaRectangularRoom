@@ -1,0 +1,17 @@
+apply plugin: 'application'
+apply plugin: 'java'
+
+mainClassName = 'net.marcus.AreaRectangularRoom'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    testCompile "junit:junit:4.+"
+    testCompile "org.hamcrest:hamcrest-core:1.+"
+}
